@@ -22,10 +22,10 @@
 <nav><a href="index.html" hreflang="tr">Türkçe</a></nav>
 <div class="card">
 <h1>Pofuduklar Privacy Policy</h1>
-<p class="meta">Effective date: 3 November 2026<br>Publisher: Wetrech Studio (Furkan Buğday). Contact: <a href="mailto:habbe.uygulama@outlook.com">habbe.uygulama@outlook.com</a></p>
+<p class="meta">Effective date: 5 November 2026<br>Publisher: Wetrech Studio (Furkan Buğday). Contact: <a href="mailto:habbe.uygulama@outlook.com">habbe.uygulama@outlook.com</a></p>
 
 <h2>1. In short</h2>
-<p>In Adventure and Home no information leaves the device unless you choose to watch an ad at the end of a match or to buy Elmas (section 3). Only when you enter Dünya is the minimum an online match needs processed, for the duration of the match, and deleted when the match ends (section 3a). Adventure and Home work without an internet connection.</p>
+<p>The game does not ask for an account and does not collect your name, e-mail or device ID. When the internet is available it connects to our server for only three things: online matches in Dünya (section 3a), checking that a Diamond purchase is genuine (section 3), and anonymous usage counters that you can turn off (section 3b). Ads are shown only at the end of a match, and only if you ask for one. Adventure and Home work without the internet.</p>
 
 <h2>2. Information stored on your device</h2>
 <ul>
@@ -37,9 +37,10 @@
 
 <h2>3. Ads, purchases, backup, accounts</h2>
 <ul>
-<li><b>In-app purchases:</b> Elmas packs are bought through Google Play. Your payment details stay with Google; we never see them. The purchase record signed by Google Play (order number and purchase token) is verified on the device and kept there with the fact that it was handled; it is not sent to any server of ours. For players under 13, or when no age has been given, an adult solves a short check before a purchase.</li>
+<li><b>In-app purchases:</b> Diamond packs are bought through Google Play. Your payment details stay with Google; we never see them. When a purchase is complete, the game sends the purchase token issued by Google Play and the product name to our server. The server asks Google Play whether the purchase is genuine and, if it is, tells Google Play it has been delivered; only then are the Diamonds added. So that the same purchase is never counted twice, an irreversible hash of the token, the product name and the date are kept for one year. The order number, your name, e-mail, Google account, IP address and device details are not stored. For players under 13, or when no age has been given, a short check that an adult solves is shown before a purchase.</li>
+<li><b>Checking that the game is official:</b> When you enter Dünya and when a purchase is checked, the game asks Google Play for an integrity token (Google Play Integrity). The token tells us whether the game is unmodified, whether it was obtained from Google Play and whether the device passes a basic security check. Our server has Google verify the token, uses the result only for that request and does not store it. Google processes some information about the device under its own terms when it creates the token.</li>
 <li><b>Rewarded ads:</b> An ad is shown only at the end of a match, and only if you tap "Watch an ad", through Google AdMob; nothing is loaded before you tap, and there are no ads in Home matches or anywhere else in the game. Child-directed settings are on for every user: no personalised or remarketing ads, no advertising ID is sent (the app does not even have the advertising ID permission), no third-party ad measurement, and ad content is limited to the most general rating (G). When an ad is requested, Google processes, according to its own documentation: the device's IP address (which may be used to estimate the general location), interactions with the ad (views, taps, video views), diagnostic information about the performance of the app and the ads software, and device identifiers such as the app set ID. This data is encrypted in transit. How Google processes it: <a href="https://policies.google.com/technologies/partner-sites">policies.google.com/technologies/partner-sites</a> and <a href="https://policies.google.com/privacy">policies.google.com/privacy</a>.</li>
-<li><b>Backup:</b> If Android backup is on, Android may back up your game data (progress, collection, Elmas balance, cosmetics, settings) to your own Google account, and it comes back on a new phone or after a reinstall. We cannot access that backup; you can turn it off in Android settings.</li>
+<li><b>Backup:</b> If Android backup is on, Android may back up your game data (progress, collection, Diamond balance, cosmetics, settings) to your own Google account, and it comes back on a new phone or after a reinstall. We cannot access that backup; you can turn it off in Android settings.</li>
 <li>There are no accounts, no sign-in and no chat. Online play is only in Dünya and needs no account (section 3a).</li>
 </ul>
 
@@ -49,16 +50,20 @@
 <li>For an online match we send only: a random game ID created at install (not your name, e-mail or phone number), the plush you picked, the four toys in your toy bag and a nickname chosen from a fixed list, your shot commands during the match and preset emotes.</li>
 <li>Your game ID is held on the server only while your connection is open. So that a match can carry on where it left off if the connection drops, the match state is written to the server's temporary storage every turn. This record contains the nickname you chose from the fixed list, your plush and the toys in your bag, and which toys and maps the room has (those its creator has unlocked in the game); it contains no name, game ID, IP address or device information. When the match ends, all of its records are deleted. The server may run in Cloudflare's data centres in Europe; this information is processed there for the duration of the match. It is not stored permanently, not shared with anyone and not used for advertising or profiling.</li>
 <li>The server runs on Cloudflare's infrastructure. Your IP address is processed to make the connection; we do not log it.</li>
-<li>To stop too many wrong room-code attempts, an irreversible digest of the connection address is kept in memory for at most 15 minutes and is never written anywhere.</li>
+<li>To stop too many wrong room-code attempts, rooms being opened too often and counter packages being sent too often, an irreversible digest of the connection address is kept in memory for at most 15 minutes and is never written anywhere.</li>
 <li>There is no chat and no free text. Players can only send preset emotes (such as a wave or a clap).</li>
 <li>For players under 13, or when no age has been given, Dünya first asks for a short check that an adult solves.</li>
 </ul>
 
+<h2>3b. Anonymous usage counters</h2>
+<p>To improve the game, we learn from totals which levels feel hard, which toys get used and how smoothly the game runs on phones. The game turns what happens during the day into numbers on the device (for example "Adventure 1-3 won: 2") and, when the internet is available, sends them to our server at most once a day. The package contains only these numbers, the game version, the language, the day, a rough range of how many days the game has been installed and an age group (under 13, 13 and over, not given). It contains no game ID, device ID, name, location or IP address. The server adds the package to the totals of all players as soon as it arrives and does not keep the package itself; what a single player did cannot be worked out from these totals. Totals are kept for up to two years. You can turn this off with the "Anonymous counters" switch in Settings; while it is off, nothing is sent.</p>
+
 <h2>4. Third parties</h2>
 <ul>
-<li>The game contains no analytics or crash-reporting services.</li>
+<li>The game has no third-party analytics or crash reporting service; anonymous counters are on our own server (section 3b).</li>
 <li>Rewarded ads use Google AdMob and purchases use Google Play Billing (section 3), both under Google's own terms and privacy policy.</li>
-<li>The Dünya server runs on Cloudflare's infrastructure (section 3a). Cloudflare processes the connection only on our behalf, for the match; the server's logging is switched off.</li>
+<li>Google Play Developer API and Google Play Integrity are used to verify purchases and to check that the game is official (section 3).</li>
+<li>The Dünya server, purchase records and counter totals are processed on Cloudflare's infrastructure on our behalf; server logging is turned off.</li>
 <li>At first launch the game asks the Google Play app on the device for an age range and parental approval status only (Google Play Age Signals). Google Play may ask you before sharing it. The answer is turned into an age group on the device; the game does not send it anywhere.</li>
 <li>The store you downloaded the app from (Google Play) may process some download and device-stability information under its own terms and privacy policy. This processing is not under our control.</li>
 </ul>
@@ -67,6 +72,7 @@
 <ul>
 <li>Pofuduklar is suitable for players of all ages, including children.</li>
 <li>Adventure and Home process no personal data. In Dünya, the IP address, a random game ID and a nickname are processed only to run the match, for the duration of the match. No profile is built, nothing is used for advertising, and it is deleted when the match ends. Before entering Dünya, players under 13 or without a given age get a short check that an adult solves; if Google Play reports that a parent declined, Dünya stays closed.</li>
+<li>Purchase verification and anonymous counters contain no information that identifies a person and are not used for profiling or advertising.</li>
 <li>Ads are shown to everyone with child-directed settings, never personalised, and only when asked for (section 3). Before a real-money purchase, players under 13 or without a given age get a check that an adult solves.</li>
 <li>If a future feature requires processing data, we will update this policy first and obtain parental consent where required.</li>
 </ul>
@@ -78,7 +84,7 @@
 </ul>
 
 <h2>7. Your rights</h2>
-<p>Because the information processed in Dünya (section 3a) is deleted when the match ends, we keep no lasting record about you. For your rights under Türkiye's Personal Data Protection Law No. 6698 (KVKK) and similar laws (to be informed, to erasure and others), write to <a href="mailto:habbe.uygulama@outlook.com">habbe.uygulama@outlook.com</a>.</p>
+<p>Information processed in Dünya is deleted when the match ends. Purchase hashes and counter totals cannot be matched to anyone, so they cannot be found as a record belonging to a single person. For your rights under Turkey's Personal Data Protection Law No. 6698 (KVKK) and similar laws, write to <a href="mailto:habbe.uygulama@outlook.com">habbe.uygulama@outlook.com</a>.</p>
 
 <h2>8. Changes</h2>
 <p>If we change this policy, we will publish the new version on this page and announce it in the game.</p>
