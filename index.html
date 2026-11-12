@@ -14,7 +14,7 @@
   h2 { font-size: 1.1em; margin: 1.3em 0 0.3em; color: var(--accent); }
   .meta { opacity: 0.85; margin: 0 0 1em; }
   nav { text-align: right; margin-bottom: 8px; }
-  a { color: var(--accent); }
+  a { color: var(--accent); overflow-wrap: anywhere; }
 </style>
 </head>
 <body>
@@ -22,20 +22,21 @@
 <nav><a href="en.html" hreflang="en">English</a></nav>
 <div class="card">
 <h1>Pofuduklar Gizlilik Politikası</h1>
-<p class="meta">Yürürlük tarihi: 7 Kasım 2026<br>Yayıncı: Wetrech Studio (Furkan Buğday). İletişim: <a href="mailto:habbe.uygulama@outlook.com">habbe.uygulama@outlook.com</a></p>
+<p class="meta">Yürürlük tarihi: 12 Kasım 2026 (son güncelleme: iPhone ve iPad bölümü eklendi; önceki sürüm 7 Kasım 2026)<br>Yayıncı: Wetrech Studio (Furkan Buğday). İletişim: <a href="mailto:habbe.uygulama@outlook.com">habbe.uygulama@outlook.com</a></p>
 
 <h2>1. Kısaca</h2>
-<p>Oyun hesap istemez; adını, e-postanı ya da cihaz kimliğini toplamaz. İnternet varken sunucumuza yalnızca üç iş için bağlanır: Dünya'da çevrimiçi maç ve kupa (madde 3a), Elmas aldığında satın almanın gerçek olduğunu doğrulamak (madde 3) ve kapatabileceğin anonim kullanım sayaçları (madde 3b). Reklam yalnızca maç sonunda sen istersen gösterilir. Macera ve Evde internet olmadan çalışır.</p>
+<p>Oyun hesap istemez; oyunun kendisi adını, e-postanı ya da cihaz kimliğini toplamaz (isteğe bağlı reklamın yazılımının işledikleri madde 3 ve 3c'de). İnternet varken sunucumuza yalnızca üç iş için bağlanır: Dünya'da çevrimiçi maç ve kupa (madde 3a), Elmas aldığında satın almanın gerçek olduğunu doğrulamak (madde 3) ve kapatabileceğin anonim kullanım sayaçları (madde 3b). Reklam yalnızca maç sonunda sen istersen gösterilir. Macera ve Evde internet olmadan çalışır.</p>
+<p>Bu politika oyunun Android (Google Play) ve iPhone/iPad (App Store) sürümleri içindir. Çoğu madde ikisinde aynıdır; satın alma, oyunun resmî olduğunun kontrolü, reklam yazılımı ve yedekleme platforma göre değişir: Android için madde 3, iPhone ve iPad için madde 3c.</p>
 
 <h2>2. Cihazda kalan bilgiler</h2>
 <ul>
 <li>Oyun bazı bilgileri yalnızca kendi cihazında saklar: oyun ilerlemesi, pelüş koleksiyonu, ayarlar (ses, dil) ve yaş grubu.</li>
 <li>Yarım kalan bir maç, kaldığı yerden sürdürülebilsin diye cihazda saklanır ve maç bitince silinir.</li>
-<li>Yaş grubu, ilk açılışta seçilen doğum yılından ya da Google Play'in yaş sinyalinden (madde 4) çıkarılır. Doğum yılının kendisi saklanmaz. Yaş grubu yalnızca yaşa uygun ayarları seçmek için kullanılır.</li>
-<li>Bu bilgileri biz göremeyiz. Telefonunda Android yedeklemesi açıksa Android, bunları kendi Google hesabına yedekleyebilir (madde 3).</li>
+<li>Yaş grubu, ilk açılışta seçilen doğum yılından ya da (yalnız Android'de) Google Play'in yaş sinyalinden (madde 4) çıkarılır. Doğum yılının kendisi saklanmaz. Yaş grubu yalnızca yaşa uygun ayarları seçmek için kullanılır.</li>
+<li>Bu bilgileri biz göremeyiz. Telefonunda Android yedeklemesi açıksa Android, bunları kendi Google hesabına yedekleyebilir (madde 3); iPhone'da iCloud ya da bilgisayar yedeği açıksa Apple'ın cihaz yedeğine girebilir (madde 3c).</li>
 </ul>
 
-<h2>3. Reklam, satın alma, yedekleme, hesap</h2>
+<h2>3. Android (Google Play): reklam, satın alma, yedekleme, hesap</h2>
 <ul>
 <li><b>Uygulama içi satın alma:</b> Elmas paketleri Google Play üzerinden satın alınır. Ödeme bilgilerin Google'da kalır, biz görmeyiz. Satın alma bitince oyun, Google Play'in verdiği satın alma belirtecini ve ürün adını sunucumuza gönderir. Sunucu satın almanın gerçek olduğunu Google Play'e sorar, gerçekse teslim edildiğini Google Play'e bildirir; Elmas ondan sonra eklenir. Aynı satın almanın iki kez sayılmaması için belirtecin geri çevrilemez bir özeti, ürün adı ve tarih bir yıl saklanır. Sipariş numarası, adın, e-postan, Google hesabın, IP adresin ya da cihaz bilgin saklanmaz. 13 yaş altında ya da yaş belirtilmemişse satın almadan önce bir yetişkinin çözeceği kısa bir doğrulama sorulur.</li>
 <li><b>Oyunun resmî olduğunun kontrolü:</b> Dünya'ya girerken ve satın almayı doğrularken oyun, Google Play'den bir bütünlük belirteci ister (Google Play Integrity). Bu belirteç oyunun değiştirilmemiş olduğunu, Google Play'den edinildiğini ve cihazın temel güvenlik kontrolünden geçip geçmediğini söyler. Sunucumuz belirteci Google'a doğrulatır, sonucu yalnızca o istek için kullanır ve saklamaz. Google belirteci üretirken cihaz hakkında bazı bilgileri kendi koşullarına göre işler.</li>
@@ -59,14 +60,26 @@
 <h2>3b. Anonim kullanım sayaçları</h2>
 <p>Oyunu geliştirmek için hangi seviyelerin zor geldiğini, hangi oyuncakların kullanıldığını ve oyunun telefonlarda ne kadar akıcı çalıştığını toplu sayılarla öğreniriz. Oyun gün içinde olanları cihazda sayılara çevirir (örneğin "Macera 1-3 kazanıldı: 2") ve internet varken günde en fazla bir kez sunucumuza gönderir. Gönderilen pakette yalnızca bu sayılar, oyun sürümü, dil, gün, oyunun kaç gündür kurulu olduğunun kaba aralığı ve yaş grubu (13 altı, 13 ve üstü, belirtilmemiş) bulunur. Oyun kimliği, cihaz kimliği, ad, konum ya da IP adresi bulunmaz. Sunucu paketi gelir gelmez bütün oyuncuların toplamına ekler ve paketin kendisini saklamaz; tek bir oyuncunun ne yaptığı bu toplamlardan çıkarılamaz. Toplamlar en fazla iki yıl saklanır. Ayarlar'daki "Anonim sayaçlar" anahtarıyla kapatabilirsin; kapalıyken hiçbir şey gönderilmez.</p>
 
+<h2>3c. iPhone ve iPad (App Store)</h2>
+<p>Bu bölüm yalnızca App Store'dan indirilen iPhone ve iPad sürümü içindir. Dünya (madde 3a), anonim sayaçlar (madde 3b), çocuklar, silme ve haklar iki platformda aynıdır.</p>
+<ul>
+<li><b>Uygulama içi satın alma:</b> Elmas paketleri Apple'ın App Store'u üzerinden (StoreKit 2) satın alınır. Ödeme bilgilerin Apple'da kalır, biz görmeyiz. Satın alma bitince oyun, App Store'un Apple tarafından imzalanmış işlem kaydını ve ürün adını sunucumuza gönderir. Sunucu imzanın Apple'a ait olduğunu, işlemin bu oyuna ve bu ürüne ait olduğunu ve iade edilmediğini doğrular; Elmas ondan sonra eklenir ve oyun işlemi App Store'da tamamlar. Aynı satın almanın iki kez sayılmaması için işlem kimliğinin geri çevrilemez bir özeti, ürün adı ve tarih bir yıl saklanır. Adın, e-postan, Apple kimliğin, IP adresin ya da cihaz bilgin saklanmaz. Teslim edilemeyen bir satın alma (örneğin bağlantı koptuysa) App Store'da bekler; oyun açılınca ya da Ayarlar → "Satın alımları geri yükle" ile teslim edilir, teslim edilmiş bir satın alma ikinci kez verilmez. 13 yaş altında ya da yaş belirtilmemişse satın almadan önce bir yetişkinin çözeceği kısa bir doğrulama sorulur.</li>
+<li><b>Oyunun resmî olduğunun kontrolü (Apple App Attest):</b> Dünya'ya girerken, Dünya kaydı istenirken ve satın almayı doğrularken oyun, Apple'ın App Attest hizmetiyle bu kurulumun App Store'dan gelen, değiştirilmemiş Pofuduklar olduğunu kanıtlar. Kurulum cihazda bir kez bir anahtar oluşturur; gizli kısmı cihazdan çıkmaz. Sunucumuz Apple'ın onayını doğrular ve şunları saklar: anahtar kimliği, rastgele oyun kimliğinin geri çevrilemez özeti (Dünya kaydının bağlı olduğu özet), anahtarın açık kısmı, aynı isteğin tekrar kullanılmasını önleyen bir sayaç, ortam (deneme ya da yayın) ve anahtarın son kullanıldığı gün. IP adresin ya da cihaz bilgin saklanmaz. Kayıt, son kullanımdan 12 ay sonra kendiliğinden silinir. Amaç yalnızca güvenliktir: değiştirilmiş kopyaların Dünya'ya girmesini ve sahte satın almaları önlemek.</li>
+<li><b>Ödüllü reklam:</b> Android'deki gibi yalnızca maç sonunda, sen "Reklam izle" düğmesine basarsan Google AdMob (Google Mobile Ads SDK) ile gösterilir; düğmeye basılmadan reklam yüklenmez, Evde maçlarında ve oyunun başka hiçbir yerinde reklam yoktur. Her istek çocuklara yönelik işlemle (Google'ın yaşa göre kısıtlanmış işlemi), en genel içerik seviyesiyle (G) ve kişiselleştirilmeden yapılır. Reklam kimliği (IDFA) kullanılmaz, uygulama izleme izni (App Tracking Transparency) istenmez ve izleme yapılmaz. Reklam istendiğinde Google, kendi App Store veri açıklamasına göre şunları işler: bu geliştiriciye özgü cihaz kimliği (IDFV), IP adresinden tahmin edilen genel konum, reklamla etkileşimler ve reklam verisi (gösterim, dokunma, video izleme), reklam yazılımının çökme ve performans bilgileri ve diğer tanılama bilgileri. Google'ın bu verileri nasıl işlediği: <a href="https://policies.google.com/technologies/partner-sites">policies.google.com/technologies/partner-sites</a> ve <a href="https://policies.google.com/privacy">policies.google.com/privacy</a>.</li>
+<li><b>Yedekleme:</b> iPhone'unda iCloud yedeklemesi ya da bilgisayara yedekleme açıksa, oyun verin (ilerleme, koleksiyon, Elmas bakiyesi, kozmetikler, ayarlar) Apple'ın cihaz yedeğine girebilir ve geri yüklemede geri gelir. Bu yedeğe biz erişemeyiz.</li>
+<li><b>Yaş:</b> iPhone ve iPad'de yaş grubu yalnızca ilk açılıştaki doğum yılı sorusundan çıkarılır (Google Play'in yaş sinyali iOS'ta yoktur). Doğum yılının kendisi saklanmaz.</li>
+<li><b>Apple'ın verisi:</b> App Store ve iOS, indirme, satın alma ve cihaz kararlılığıyla ilgili bazı bilgileri Apple'ın kendi koşulları ve gizlilik politikası çerçevesinde işler: <a href="https://www.apple.com/legal/privacy/">apple.com/legal/privacy</a>. iPhone ayarlarında "Uygulama geliştiricileriyle paylaş" açıksa Apple, uygulamanın çökme raporlarını bizimle paylaşabilir; bu raporlar seni tanımlayan bilgi içermez. Bu işlemeler bizim kontrolümüzde değildir.</li>
+</ul>
+
 <h2>4. Üçüncü taraflar</h2>
 <ul>
-<li>Oyunda üçüncü taraf analitik ya da çökme raporlama hizmeti yoktur; anonim sayaçlar kendi sunucumuzdadır (madde 3b).</li>
-<li>Ödüllü reklam için Google AdMob, satın almalar için Google Play Faturalandırma kullanılır (madde 3). İkisi de Google'ın kendi koşulları ve gizlilik politikası çerçevesinde çalışır.</li>
-<li>Satın almaları doğrulamak ve oyunun resmî olduğunu kontrol etmek için Google Play Developer API ve Google Play Integrity kullanılır (madde 3).</li>
+<li>Oyunda üçüncü taraf analitik ya da çökme raporlama hizmeti yoktur; anonim sayaçlar kendi sunucumuzdadır (madde 3b). Reklam yazılımının kendi tanılama verisi madde 3 ve 3c'de.</li>
+<li>Android'de ödüllü reklam için Google AdMob, satın almalar için Google Play Faturalandırma kullanılır (madde 3). İkisi de Google'ın kendi koşulları ve gizlilik politikası çerçevesinde çalışır.</li>
+<li>Android'de satın almaları doğrulamak ve oyunun resmî olduğunu kontrol etmek için Google Play Developer API ve Google Play Integrity kullanılır (madde 3).</li>
+<li>iPhone ve iPad'de ödüllü reklam için Google AdMob (Google Mobile Ads SDK), satın almalar için Apple App Store (StoreKit 2), oyunun resmî olduğunu kontrol etmek için Apple App Attest kullanılır (madde 3c). Satın almanın Apple imzası, Apple'ın yayımladığı kök sertifikayla sunucumuzda doğrulanır.</li>
 <li>Dünya sunucusu, satın alma kayıtları ve sayaç toplamları Cloudflare'in altyapısında, bizim adımıza işlenir; sunucunun günlük kaydı kapalıdır.</li>
 <li>Oyun ilk açılışta, cihazdaki Google Play uygulamasından yalnızca bir yaş aralığı ve ebeveyn onayı durumu ister (Google Play Age Signals). Google Play bu bilgiyi paylaşmadan önce sana sorabilir. Gelen bilgi cihazda yaş grubuna çevrilir; oyun onu hiçbir yere göndermez.</li>
-<li>Uygulamayı indirdiğin mağaza (Google Play) indirme ve cihaz kararlılığıyla ilgili bazı bilgileri kendi koşulları ve gizlilik politikası çerçevesinde işleyebilir. Bu işleme bizim kontrolümüzde değildir.</li>
+<li>Uygulamayı indirdiğin mağaza (Google Play ya da App Store) indirme ve cihaz kararlılığıyla ilgili bazı bilgileri kendi koşulları ve gizlilik politikası çerçevesinde işleyebilir. Bu işleme bizim kontrolümüzde değildir.</li>
 </ul>
 
 <h2>5. Çocuklar</h2>
@@ -80,7 +93,7 @@
 
 <h2>6. Silme</h2>
 <ul>
-<li>Cihazdaki bütün oyun verisini silmek için uygulamayı kaldırman ya da telefon ayarlarından uygulama verisini temizlemen yeterlidir.</li>
+<li>Cihazdaki bütün oyun verisini silmek için uygulamayı kaldırman (Android'de telefon ayarlarından uygulama verisini temizlemen de olur) yeterlidir. iPhone'da cihaz yedeğinde kalan kopya, o yedek silinene kadar Apple'da durur.</li>
 <li>Oyun içinde Ayarlar → "İlerlemeyi sıfırla" da aynı işi yapar.</li>
 <li>Dünya kaydı cihazda değil sunucumuzda durur; uygulamayı kaldırmak onu silmez. Ayarlar → "Dünya kaydımı sil" ile silebilir, ya da Ayarlar'da görünen oyun kodunla bize yazabilirsin. 12 ay Dünya'da oynanmazsa kendiliğinden silinir. "İlerlemeyi sıfırla" internet varken Dünya kaydını da siler.</li>
 </ul>

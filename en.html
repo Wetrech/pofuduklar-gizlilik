@@ -14,7 +14,7 @@
   h2 { font-size: 1.1em; margin: 1.3em 0 0.3em; color: var(--accent); }
   .meta { opacity: 0.85; margin: 0 0 1em; }
   nav { text-align: right; margin-bottom: 8px; }
-  a { color: var(--accent); }
+  a { color: var(--accent); overflow-wrap: anywhere; }
 </style>
 </head>
 <body>
@@ -22,20 +22,21 @@
 <nav><a href="index.html" hreflang="tr">Türkçe</a></nav>
 <div class="card">
 <h1>Pofuduklar Privacy Policy</h1>
-<p class="meta">Effective date: 7 November 2026<br>Publisher: Wetrech Studio (Furkan Buğday). Contact: <a href="mailto:habbe.uygulama@outlook.com">habbe.uygulama@outlook.com</a></p>
+<p class="meta">Effective date: 12 November 2026 (last update: iPhone and iPad section added; previous version 7 November 2026)<br>Publisher: Wetrech Studio (Furkan Buğday). Contact: <a href="mailto:habbe.uygulama@outlook.com">habbe.uygulama@outlook.com</a></p>
 
 <h2>1. In short</h2>
-<p>The game does not ask for an account and does not collect your name, e-mail or device ID. When the internet is available it connects to our server for only three things: online matches and trophies in Dünya (section 3a), checking that a Diamond purchase is genuine (section 3), and anonymous usage counters that you can turn off (section 3b). Ads are shown only at the end of a match, and only if you ask for one. Adventure and Home work without the internet.</p>
+<p>The game does not ask for an account, and the game itself does not collect your name, e-mail or device ID (what the optional ads' software processes is in sections 3 and 3c). When the internet is available it connects to our server for only three things: online matches and trophies in Dünya (section 3a), checking that a Diamond purchase is genuine (section 3), and anonymous usage counters that you can turn off (section 3b). Ads are shown only at the end of a match, and only if you ask for one. Adventure and Home work without the internet.</p>
+<p>This policy covers the Android (Google Play) and iPhone/iPad (App Store) versions of the game. Most sections are the same for both; purchases, the check that the game is official, the ad software and backup differ by platform: section 3 for Android, section 3c for iPhone and iPad.</p>
 
 <h2>2. Information stored on your device</h2>
 <ul>
 <li>The game stores some information only on your own device: game progress, plush collection, settings (sound, language) and an age group.</li>
 <li>A match left unfinished is stored on the device so that it can be resumed where it stopped, and is deleted when the match ends.</li>
-<li>The age group comes from the birth year chosen at first launch or from Google Play's age signal (section 4). The birth year itself is not stored. The age group is used only to choose age-appropriate settings.</li>
-<li>We cannot see this information. If Android backup is on, Android may back it up to your own Google account (section 3).</li>
+<li>The age group comes from the birth year chosen at first launch or (on Android only) from Google Play's age signal (section 4). The birth year itself is not stored. The age group is used only to choose age-appropriate settings.</li>
+<li>We cannot see this information. If Android backup is on, Android may back it up to your own Google account (section 3); on iPhone, if iCloud or computer backup is on, it may be included in Apple's device backup (section 3c).</li>
 </ul>
 
-<h2>3. Ads, purchases, backup, accounts</h2>
+<h2>3. Android (Google Play): ads, purchases, backup, accounts</h2>
 <ul>
 <li><b>In-app purchases:</b> Diamond packs are bought through Google Play. Your payment details stay with Google; we never see them. When a purchase is complete, the game sends the purchase token issued by Google Play and the product name to our server. The server asks Google Play whether the purchase is genuine and, if it is, tells Google Play it has been delivered; only then are the Diamonds added. So that the same purchase is never counted twice, an irreversible hash of the token, the product name and the date are kept for one year. The order number, your name, e-mail, Google account, IP address and device details are not stored. For players under 13, or when no age has been given, a short check that an adult solves is shown before a purchase.</li>
 <li><b>Checking that the game is official:</b> When you enter Dünya and when a purchase is checked, the game asks Google Play for an integrity token (Google Play Integrity). The token tells us whether the game is unmodified, whether it was obtained from Google Play and whether the device passes a basic security check. Our server has Google verify the token, uses the result only for that request and does not store it. Google processes some information about the device under its own terms when it creates the token.</li>
@@ -59,14 +60,26 @@
 <h2>3b. Anonymous usage counters</h2>
 <p>To improve the game, we learn from totals which levels feel hard, which toys get used and how smoothly the game runs on phones. The game turns what happens during the day into numbers on the device (for example "Adventure 1-3 won: 2") and, when the internet is available, sends them to our server at most once a day. The package contains only these numbers, the game version, the language, the day, a rough range of how many days the game has been installed and an age group (under 13, 13 and over, not given). It contains no game ID, device ID, name, location or IP address. The server adds the package to the totals of all players as soon as it arrives and does not keep the package itself; what a single player did cannot be worked out from these totals. Totals are kept for up to two years. You can turn this off with the "Anonymous counters" switch in Settings; while it is off, nothing is sent.</p>
 
+<h2>3c. iPhone and iPad (App Store)</h2>
+<p>This section applies only to the iPhone and iPad version downloaded from the App Store. Dünya (section 3a), the anonymous counters (section 3b), children, deletion and your rights are the same on both platforms.</p>
+<ul>
+<li><b>In-app purchases:</b> Diamond packs are bought through Apple's App Store (StoreKit 2). Your payment details stay with Apple; we never see them. When a purchase completes, the game sends the App Store's transaction record, signed by Apple, and the product name to our server. The server checks that the signature is Apple's, that the transaction belongs to this game and this product and that it has not been refunded; only then are the Diamonds added, and the game completes the transaction with the App Store. So that the same purchase is never counted twice, an irreversible digest of the transaction ID, the product name and the date are kept for one year. Your name, e-mail, Apple ID, IP address and device details are not stored. A purchase that could not be delivered (for example, if the connection dropped) waits in the App Store and is delivered when the game opens or with Settings → "Restore purchases"; a purchase already delivered is never given twice. For players under 13 or without an age given, a short check that an adult solves is asked before a purchase.</li>
+<li><b>Checking that the game is official (Apple App Attest):</b> When entering Dünya, when the Dünya record is requested and when a purchase is checked, the game uses Apple's App Attest service to prove that this installation is the unmodified Pofuduklar from the App Store. The installation creates a key on the device once; its private part never leaves the device. Our server verifies Apple's attestation and keeps: the key ID, an irreversible digest of your random game ID (the same digest the Dünya record is linked to), the public part of the key, a counter that prevents the same request from being reused, the environment (testing or release) and the last day the key was used. Your IP address and device details are not stored. The record is deleted automatically 12 months after its last use. Its only purpose is security: keeping modified copies out of Dünya and preventing fake purchases.</li>
+<li><b>Rewarded ads:</b> As on Android, an ad is shown only at the end of a match, only if you tap "Watch an ad", through Google AdMob (Google Mobile Ads SDK); nothing is loaded before you tap, and there are no ads in Home matches or anywhere else in the game. Every request uses child-directed treatment (Google's age-restricted treatment), the most general content rating (G) and no personalisation. The advertising identifier (IDFA) is not used, no App Tracking Transparency permission is requested, and there is no tracking. When an ad is requested, Google processes, according to its own App Store data disclosure: the identifier for vendor (IDFV), an approximate location estimated from the IP address, interactions with the ad and advertising data (impressions, taps, video views), crash and performance information of the ad software, and other diagnostic information. How Google processes this data: <a href="https://policies.google.com/technologies/partner-sites">policies.google.com/technologies/partner-sites</a> and <a href="https://policies.google.com/privacy">policies.google.com/privacy</a>.</li>
+<li><b>Backup:</b> If iCloud Backup or a computer backup is turned on for your iPhone, your game data (progress, collection, Diamond balance, cosmetics, settings) may be included in Apple's device backup and come back when it is restored. We cannot access this backup.</li>
+<li><b>Age:</b> On iPhone and iPad the age group comes only from the birth-year question on first launch (Google Play's age signals do not exist on iOS). The birth year itself is not stored.</li>
+<li><b>Apple's data:</b> The App Store and iOS process some information about downloads, purchases and device stability under Apple's own terms and privacy policy: <a href="https://www.apple.com/legal/privacy/">apple.com/legal/privacy</a>. If "Share with App Developers" is turned on in your iPhone's settings, Apple may share the app's crash reports with us; these reports contain no information that identifies you. This processing is not under our control.</li>
+</ul>
+
 <h2>4. Third parties</h2>
 <ul>
-<li>The game has no third-party analytics or crash reporting service; anonymous counters are on our own server (section 3b).</li>
-<li>Rewarded ads use Google AdMob and purchases use Google Play Billing (section 3), both under Google's own terms and privacy policy.</li>
-<li>Google Play Developer API and Google Play Integrity are used to verify purchases and to check that the game is official (section 3).</li>
+<li>The game has no third-party analytics or crash reporting service; anonymous counters are on our own server (section 3b). The ad software's own diagnostic data is described in sections 3 and 3c.</li>
+<li>On Android, rewarded ads use Google AdMob and purchases use Google Play Billing (section 3), both under Google's own terms and privacy policy.</li>
+<li>On Android, Google Play Developer API and Google Play Integrity are used to verify purchases and to check that the game is official (section 3).</li>
+<li>On iPhone and iPad, rewarded ads use Google AdMob (Google Mobile Ads SDK), purchases use Apple's App Store (StoreKit 2), and Apple App Attest checks that the game is official (section 3c). Apple's signature on a purchase is verified on our server against Apple's published root certificate.</li>
 <li>The Dünya server, purchase records and counter totals are processed on Cloudflare's infrastructure on our behalf; server logging is turned off.</li>
 <li>At first launch the game asks the Google Play app on the device for an age range and parental approval status only (Google Play Age Signals). Google Play may ask you before sharing it. The answer is turned into an age group on the device; the game does not send it anywhere.</li>
-<li>The store you downloaded the app from (Google Play) may process some download and device-stability information under its own terms and privacy policy. This processing is not under our control.</li>
+<li>The store you downloaded the app from (Google Play or the App Store) may process some download and device-stability information under its own terms and privacy policy. This processing is not under our control.</li>
 </ul>
 
 <h2>5. Children</h2>
@@ -80,7 +93,7 @@
 
 <h2>6. Deletion</h2>
 <ul>
-<li>To delete all game data, uninstall the app or clear the app's data in your phone settings.</li>
+<li>To delete all game data on the device, uninstall the app (on Android, clearing the app's data in your phone settings also works). On iPhone, a copy in a device backup stays with Apple until that backup is deleted.</li>
 <li>In-game Settings → "Reset progress" does the same.</li>
 <li>The Dünya record is on our server, not on your device, so uninstalling the app does not delete it. You can delete it in Settings → "Delete my Dünya record", or write to us with the game code shown in Settings. It is deleted automatically after 12 months without Dünya play. "Reset progress" also deletes the Dünya record when the internet is available.</li>
 </ul>
